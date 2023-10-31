@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600;900&family=Red+Hat+Display:wght@300;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", "Red Hat Display";
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.card {
+  width: 300px;
+  height: 480px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.card-top {
+  width: 300px;
+  height: 150px;
+  background-image: url(./images/illustration-hero.svg);
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+.card-content {
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.card-content h2 {
+  font-weight: 900;
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+.card-content p {
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  width: 230px;
+}
+.card-plan {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 20px 30px;
+  align-items: center;
+  background-color: hsl(224, 80%, 98%);
+  width: 250px;
+  border-radius: 8px;
+  padding: 5px;
+}
+.card-plan img {
+  margin-right: 5px;
+}
+.plan {
+  margin-right: 30px;
+}
+.plan h6 {
+  font-weight: 600px;
+  font-size: 14px;
+}
+.plan span {
+  font-size: 12px;
+  font-weight: 200;
+  color: hsl(223, 13%, 50%);
+}
+.card-plan a {
+  font-size: 10px;
+  font-weight: 300;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.payment {
+  width: 250px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  color: #ffff;
+  margin-bottom: 5px;
+}
+.cancel {
+  width: 250px;
+  background-color: #ffff;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  color: hsl(223, 13%, 50%);
+  font-size: 12px;
+}
